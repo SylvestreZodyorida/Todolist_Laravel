@@ -1,19 +1,40 @@
 *{
-    padding-top: 10px;
+    list-style-type: none;
+}
+
+main{
+    padding-top: 40px;
+}
+.nav{
+    box-shadow: 0px 05px 5px rgba(221, 221, 221, 0.753);
+    padding-bottom: 20px;
+    list-style-type: none;
 }
 .all{
     border-radius: 20px;
     box-shadow: 0px 05px 5px rgb(243, 240, 240);
 }
-
+.nav .li{
+    margin-left: 0px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px gainsboro ;
+    background-color: white;
+    margin-top: 3px;
+    padding: 4px;
+}
+.nav ul .li:hover{
+    background-color: white;
+}
 .logo{
-    font-size: 29px;
-    padding-left: 20px;
+    font-size: 21px;
+    padding: 20px;
     font-weight: 1000;
-    padding-bottom: 10px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.699);
+    margin-right: 20px;
+    background: white;
     border-radius: 20px;
-    box-shadow: 0px 05px 5px rgb(134, 133, 133);
+    box-shadow: 0px 05px 5px rgb(230, 227, 227);
 }
 
 .notif-footer1 {
@@ -25,5 +46,180 @@
     font-family: mono;
     padding-bottom: 10px;
     font-size: 19px;
+    color: rgba(68, 0, 255, 0.863);
+}
+.notif-footer3 {
+    font-family: mono;
+    padding-bottom: 10px;
+    font-size: 19px;
+    color: rgba(144, 144, 145, 0.863);
+}
+.acc_img
+{
+    border-radius: 5px;
+    box-shadow: 010px 010px 0px rgba(78, 78, 78, 0.753);
+}
+.prog_jours{
+
+}
+.hed_login{
+    box-shadow: 0px 05px 05px rgba(206, 206, 206, 0.918);
+    border-radius: 5px;
+    margin-bottom: 10%;
+
+}
+.card-header{
+    border-radius: 5px;
+    box-shadow: 0px 03px 03px rgba(0, 60, 255, 0.671);
+    margin-bottom: 15px;
+    color: blue;
+   font-size: 21px;
+   font-weight: 500;
+   text-align: center;
+}
+.hed_login label{
+   font-size: 19px;
+   font-weight: 300;
+
+}
+.hed_login input{
+    border-radius: 5px;
+    background-color: none;
+    border-bottom: 3px solid blue;
+
+ }
+
+ .hed_login select{
+    border-radius: 5px;
+    background-color: none;
+    border-bottom: 3px solid blue;
+    width: 70px;
+    margin-left: 12px;
+ }
+ .hed_login input:focus{
+    border-color: rgb(74, 74, 238);
+    box-shadow: 0px 05px  0px rgb(229, 238, 229);
+ }
+ .hed_login input:hover{
+    background-color: rgb(231, 231, 231);
+
+ }
+ .conn{
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 10px;
+    border: 0.5px solid rgb(221, 218, 218);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding: 10px;
+ }
+ .reg{
+    border-radius: 5px;
+    border: 0.5px solid rgb(221, 218, 218);
+    padding: 10px; margin-right: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: white;
+ }
+ .reg:hover{
+    border-bottom: 2px solid gray;
+ }
+ .conn:hover{
+    border-bottom: 2px solid gray;
+ }
+.navbar-toggler-icon{
+    color: aqua;
+    border: 1px solid black;
+}
+.msg_success{
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 2px;
+}
+.erreur{
+    background: rgb(248, 155, 132);
+    width: 340px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.liste_ctct_n{
+    background-color: aqua;
+    margin-left: 5%;
+    width: 15%;
+    padding: 5px;
+    margin-right: 2%;
+}
+.liste_ctct_e{
+    background-color: aqua;
+    margin-left: 5%;
+    padding: 5px;
+    margin-right: 2%;
+}
+.liste_ctct_sn{
+    background-color: aqua;
+    margin-left: 5%;
+    padding: 5px;
+    margin-right: 2%;
+}
+.details_list{
+    display: flex;
+}
+.tb_cent{
+    text-align: center;
+}
+.date_creation{
+    position: relative;
+    left: -30px;
+    font-size: 13px;
+    color: rgb(165, 163, 163);
+}
+.pg_list_ctct{
+    padding: 20px;
+}
+.pg_list_ctct h3{
     color: blue;
 }
+.pg_list_ctct th,td{
+    color: blue;
+}
+.pg_list_ctct .top{
+   display: flex;
+   justify-content: space-between;
+}
+.search{
+    margin-bottom: -10px;
+}
+
+
+
+.calendrier{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
