@@ -7,12 +7,6 @@
     <title>All in Time</title>
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-        
-    <link rel="stylesheet" href="{{asset('calendar-19/fonts/icomoon/style.css')}}">
-    <link href="{{asset('calendar-19/fullcalendar/packages/core/main.css')}}" rel='stylesheet' />
-    <link href="{{asset('calendar-19/fullcalendar/packages/daygrid/main.css')}}" rel='stylesheet' />
-    <link rel="stylesheet" href="{{asset('calendar-19/css/style.css')}}">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 <body>
@@ -125,12 +119,5 @@
     <script src="{{asset('js/app.js')}}"></script>
 
 
-
-    <script src="{{asset('calendar-19/js/jquery-3.3.1.min.js')}}"></script>
-    <script src="{{asset('calendar-19/js/popper.min.js')}}"></script>
-
-    <script src="{{asset('calendar-19/fullcalendar/packages/core/main.js')}}" ></script>
-    <script src="{{asset('calendar-19/fullcalendar/packages/interaction/main.js')}}" ></script>
-    <script src="{{asset('calendar-19/fullcalendar/packages/daygrid/main.js')}}"></script>
 </body>
 </html>

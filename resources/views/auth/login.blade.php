@@ -2,10 +2,6 @@
 
 @section('content')
 <br>
-<figure class="figure">
-  <img src="{{asset('img/blog9.jpg')}}" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-  <figcaption class="figure-caption">A caption for the above image.</figcaption>
-</figure>   
 <br><br><br><br>
 <div class="container">
     <div class="row justify-content-center" >
